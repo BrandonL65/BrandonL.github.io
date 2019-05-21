@@ -53,20 +53,35 @@ body
     width:25%;
 }
 
-.cloud-pic {
+.cloud-pic 
+{
     width: 10%;
     position: absolute;
 }
-
-.first-cloud {
+.first-plane
+{   
+    left:10%;
+}
+.first-cloud 
+{
     right: 20%;
     top: 20%;
 }
 
-.second-cloud {
+.second-cloud 
+{
     left: 20%;
 }
-
+.third-cloud
+{
+    right:22%;
+    bottom:22%;
+}
+.fourth-cloud
+{
+    left:13%;
+    top:13%;
+}
 /* SECOND CONTAINER */
 .container2
 {
@@ -99,4 +114,68 @@ body
     color:#105273;
     text-decoration:none;
     font-size:1.6rem;
+}
+/* 
+THIRD CONTAINER */
+.container3
+{
+    line-height:2;
+    font-family:Montserrat;
+    font-weight:300;
+    background-color:#E0E9E8;
+    padding-bottom:1%;
+}
+.skills_word
+{
+    background-color:#E0E9E8;
+    text-align:center;
+    padding:3%;
+    margin:0;
+    font-family:Montserrat;
+    font-weight:500;
+    color:#105273;
+}
+.skills-column
+{
+    background-color: #E0E9E8;
+    width:40%;
+    margin: 5% auto 7% auto;
+    text-align:left;
+
+}
+
+#programming-img
+{  
+    float:left;
+    display:inline-block;
+    width:20%;
+    height:auto;
+    margin-right:7%;
+
+    
+}
+#router-pic
+{
+    float:left;
+    margin-right:7%;
+    width:20%;
+    height:auto;
+
+}
+.skills-column h3
+{
+    display:block;
+    color:#105273;
+}
+.skills-column p
+{
+    display:block;
+}
+
+@media (max-width:800px)
+{
+    #container1
+    {
+        height:70vh;
+    }
 }
